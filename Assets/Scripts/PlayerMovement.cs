@@ -4,18 +4,22 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-
     [SerializeField] private Camera mainCamera;
     public float moveSpeed = 10f;
+
+    private bool _receivingInput = true;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        MapManager.ShouldReceiveInputEvent += should => _receivingInput = should;
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (!_receivingInput) return;
+        
         Move();
         LookAtMouse();
     }
@@ -35,7 +39,8 @@ public class PlayerMovement : MonoBehaviour
     {
         float horizontalInput = Input.GetAxis("Horizontal");
         float verticalInput = Input.GetAxis("Vertical");
-        transform.position += new Vector3(horizontalInput, verticalInput, 0f).normalized 
-                              * (moveSpeed * Time.deltaTime);;
+        transform.position += new Vector3(horizontalInput, verticalInput, 0f).normalized
+                              * (moveSpeed * Time.deltaTime);
+        ;
     }
 }
