@@ -1,38 +1,44 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using Random = UnityEngine.Random;
 
-public class MapManager : MonoBehaviour
+public class MapManager : Subject<bool>
 {
-    [SerializeField]
-    private List<Room> Rooms;
+    public Image blackOverlay;
+    public float fadeDuration = 1.0f;
 
-    private int _currentRoom = 0;
-
-    private Room _activeRoom;
-
+    public static MapManager Instance;
     public static bool UpdatingRoom { get; private set; }
-
-    public static event Action<bool> ShouldReceiveInputEvent;
-
-    private float _timer;
-
-    // eseni gazarde tu ginda ro mal-male ar sheicvalos adgili
-    private float _maxTime = 4f;
-    // esec!
-    private float _minTime = 3f;
 
     [SerializeField]
     private GameObject _player;
+    [SerializeField] 
+    private Camera _mainCamera;
+    [SerializeField]
+    private List<Room> Rooms;
 
-    [SerializeField] private Camera _mainCamera;
-    
-    public Image blackOverlay;
-    public float fadeDuration = 2.0f;
-    // Start is called before the first frame update
+    private Room _activeRoom;
+    private int _currentRoom = 0;
+    private float _timer;
+    // eseni gazarde tu ginda ro mal-male ar sheicvalos adgili
+    private float _maxTime = 10000f;
+    // esec!
+    private float _minTime = 10000f;
+
+    private void Awake()
+    {
+        if (Instance == null)
+        {
+            Instance = this;
+        }
+        else
+        {
+            Destroy(this);
+        }
+    }
+
     void Start()
     {
         _activeRoom = Rooms[_currentRoom];
@@ -61,11 +67,10 @@ public class MapManager : MonoBehaviour
 
         if (_timer <= 0f)
         {
-
             UpdatingRoom = true;
 
             StartCoroutine(UpdateRoom());
-            ShouldReceiveInputEvent?.Invoke(false); // TODO: others should subscribe to this event!
+            NotifyObservers(false);
             _currentRoom = Random.Range(0, Rooms.Count);
             // dim screen
             
@@ -75,7 +80,6 @@ public class MapManager : MonoBehaviour
             // stop current map
             // brighten screen
             // continue the timer
-            
         } 
     }
 
@@ -125,7 +129,7 @@ public class MapManager : MonoBehaviour
             yield return null;
         }
 
-        ShouldReceiveInputEvent?.Invoke(true);
+        NotifyObservers(true);
         _timer = Random.Range(_minTime, _maxTime);
         UpdatingRoom = false;
         blackOverlay.color = targetColor;
