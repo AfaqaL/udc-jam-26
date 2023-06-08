@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -33,8 +33,10 @@ public class PlayerMovement : MonoBehaviour
 
     private void Move()
     {
-        float horizontalInput = Input.GetAxis("Horizontal");
-        float verticalInput = Input.GetAxis("Vertical");
+        // თუ სრიალის ეფექტი გვინდა GetAxis
+        float horizontalInput = Input.GetAxisRaw("Horizontal");
+        float verticalInput = Input.GetAxisRaw("Vertical");
+
         transform.position += new Vector3(horizontalInput, verticalInput, 0f).normalized 
                               * (moveSpeed * Time.deltaTime);;
     }
