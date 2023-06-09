@@ -1,20 +1,19 @@
-using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections;
 using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour
+public class PlayerMovement : MonoBehaviour, IObserver
 {
     [SerializeField] private Camera mainCamera;
     public float moveSpeed = 10f;
+    public Subject<bool> Subject;
 
     private bool _receivingInput = true;
+
 
     // Start is called before the first frame update
     void Start()
     {
-        MapManager.ShouldReceiveInputEvent += should => _receivingInput = should;
-        
-        
+        Subject.AddObserver(this);
     }
 
     // Update is called once per frame
@@ -24,6 +23,15 @@ public class PlayerMovement : MonoBehaviour
         
         Move();
         LookAtMouse();
+    }
+
+    public IEnumerator MoveFastFor(float additionalSpeed, float timer)
+    {
+        var currentMoveSpeed = moveSpeed;
+
+        moveSpeed = moveSpeed + additionalSpeed;
+        yield return new WaitForSeconds(timer);
+        moveSpeed = currentMoveSpeed;
     }
 
     private void LookAtMouse()
@@ -39,9 +47,20 @@ public class PlayerMovement : MonoBehaviour
 
     private void Move()
     {
-        float horizontalInput = Input.GetAxis("Horizontal");
-        float verticalInput = Input.GetAxis("Vertical");
-        transform.position += new Vector3(horizontalInput, verticalInput, 0f).normalized
+        float horizontalInput = Input.GetAxisRaw("Horizontal");
+        float verticalInput = Input.GetAxisRaw("Vertical");
+
+        transform.position += new Vector3(horizontalInput, verticalInput, 0f).normalized 
                               * (moveSpeed * Time.deltaTime);
+    }
+
+    public void Notify<T>(T data)
+    {
+        bool? boolValue = data as bool?;
+
+        if (boolValue.HasValue)
+        {
+            _receivingInput = boolValue.Value;
+        }
     }
 }
