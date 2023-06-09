@@ -1,0 +1,2573 @@
+fileFormatVersion: 2
+guid: 0064887eaa03a854abbd3b52a3871a6c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dirtspritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 922
+        width: 94
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd5afc568ad2563458fa3860049e39fb
+      internalID: -1394713416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 922
+        width: 94
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abe16811505ed9c4eaffa644c6b93981
+      internalID: 719094285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 922
+        width: 93
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0da8a1e150904a540b1202ce68546c4e
+      internalID: 2080076587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 922
+        width: 92
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15c33748aeb13ec47a4de007622a9683
+      internalID: -2007736294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 922
+        width: 92
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc7a9e4bd1d56274dac5617703df06f7
+      internalID: -1978934549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 922
+        width: 93
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a991992b0302a1c44aac18f44c336679
+      internalID: 714594434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 922
+        width: 94
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02be88bfc6f13e449bef1bfeb0f4a4ae
+      internalID: -643231958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 916
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10125c4fa23b8ac408595e41afed7866
+      internalID: -701167035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 916
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12f507fb7ea94a74dad094e0fc9176a0
+      internalID: 1346167660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 916
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89468b4d450b39c4f9e5b216e1c02ab6
+      internalID: -1977850983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 826
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ddbe4b8b750c634fb9054bac197353c
+      internalID: -1674605887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 826
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 898366dc94fec2042ac853fff4248a0d
+      internalID: -1574335652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 826
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43224c0d3b28ede409a4182f9844bf10
+      internalID: -1354535690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 826
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43a22882a88315246a0fd19f086b88ab
+      internalID: -62705744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 826
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 604476ab3ce75d344a320f979df9dc99
+      internalID: -1538731536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 826
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59bb9850f4a15e848ab322c1578655cb
+      internalID: -90132253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 826
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a82d4a05b24f5bf4cada86f35d48e20e
+      internalID: 711002800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 826
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7d415725608d0e4d8e0e7d6b5ad4f1f
+      internalID: -1240200660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 832
+        width: 91
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2149b0b49b26c0543a831d2199b9ca72
+      internalID: 330733469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 826
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d93f5395683561d4fb09322ed101b514
+      internalID: 875719745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 736
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f108e8fb5edf8646a56c9505017983b
+      internalID: -220325072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 736
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 481c670759f55b34cb515b32ed614073
+      internalID: 1963962883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 736
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 915a3e93d4e7e1f46b24be384bcecd0f
+      internalID: 1198009970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 736
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fa5e055a9e6a5e4794b21ffb0c0b493
+      internalID: -434209261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 736
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f20bb6568dbe0e4cbe43f0bccafb2ba
+      internalID: 1255388866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 736
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b65beb8f1f8521408ac2c03c6d31c9f
+      internalID: -190493403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 743
+        width: 93
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d97ee3a5e04af24faf713544bf02480
+      internalID: -367269596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 736
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8afa5dfe3a5b9f04996c846de55d95ce
+      internalID: -257187616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 736
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f908af3a95cc5c46bb7a11d9d69fdf8
+      internalID: -292854683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 736
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4a4afcfa81d8bf43875e4e5a475ac6a
+      internalID: -1241787056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 646
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a001a216ebdc134fbcd5f367c77fa7a
+      internalID: -912063927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 646
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73f876ffdad3dfa4287eff1886593070
+      internalID: 951216980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 646
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 763c1768dbee3d44b99463fdbd935547
+      internalID: -1946403958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 646
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32b37894c8ea1844db900b57bb0eb533
+      internalID: 1987862641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 646
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6f715b3ba00a72498c1fa5343316c87
+      internalID: 824767716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 646
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1edbbb0d13eeceb43bc98596f940ac73
+      internalID: 1492056588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 646
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32c1eb38806be19418917512a9c0a9ce
+      internalID: 378188416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 646
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a55403f339a6ab4489360feeef5c45c
+      internalID: 600912697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 646
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2258d0979fc530e4690a33b49610491b
+      internalID: -464823724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 646
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5f0afe28fe095940a3013d962621252
+      internalID: -1731280388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 556
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fee65a644b2b8da48b207be056b3c5c0
+      internalID: 1730442002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 556
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06407c187362f0a459cd3e121f2488b8
+      internalID: 919666199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 556
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 601a0b9e54b31de47813e1336bf72355
+      internalID: -760865186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 556
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 569b49a1355223b42b31f01609169fe5
+      internalID: 327031048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 556
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0b82ac305db42140b632ab8222f7ecb
+      internalID: 1970624947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 556
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bcff8db43c77d44bb90d5ba8b7c7f34
+      internalID: 1373091798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 556
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe15042e3a8bd3844bddc963aadcec27
+      internalID: -1166608242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_47
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 556
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2535f299dbfc4f4eb0130a186810f19
+      internalID: -40009432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_48
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 556
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6236165171e0753479de8e19e2c6d53f
+      internalID: -760205276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_49
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 556
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e929c2f22b5de54ba9eb11d00bc6b5c
+      internalID: -1524093886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_50
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 466
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14a1b3270d7b4c04892cc225fbebc740
+      internalID: 1131408338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_51
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 466
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77b4a77641d1d9845ac5be6bac9d4141
+      internalID: -732197260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_52
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 466
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 765e4450fdb4bb84db645174607e2eb3
+      internalID: -1768463085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_53
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 466
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 255b30bfae8727341af00a92586f8ff0
+      internalID: 1855073000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_54
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 466
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6ec3340f107dc648b1a38f78578dd66
+      internalID: -449084804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_55
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 466
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ae93625ff9eef549a0b64edbcdd483d
+      internalID: -893374844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_56
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 466
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab065eb7fbf71054887fbd550b6ca85c
+      internalID: 1199765469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_57
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 466
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dcf0b9c5aefda849b7f719936ff3e94
+      internalID: 1904277722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_58
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 466
+        width: 80
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a308430497ac1843b3df48cd8957d8e
+      internalID: 354365995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_59
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 466
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 672eeb4ad8a1d524d9536c25f37ca151
+      internalID: -2025070211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_60
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 376
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bfa20a64c95b304d836453666adb594
+      internalID: 1627866867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_61
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 376
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5a8bc68ca01e6e48a3673ecfeaec40a
+      internalID: 349692263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_62
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 376
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12a703df9b62e6a44a75d05accb0d888
+      internalID: -1899521172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_63
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 376
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2f6202b81eb22c468d3473ca3752534
+      internalID: -1622484208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_64
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 376
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a56939c12893463459a057967cb66733
+      internalID: 1899335366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_65
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 376
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccf09b686c8356a41beffb3dc6b9f428
+      internalID: -528990229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_66
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 369
+        width: 100
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97d8ebe4ebb57c94c8e16addd04c0d05
+      internalID: 733126330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_67
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 368
+        width: 98
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 727d75e733ee6c649ab67e447ca0f31d
+      internalID: -1592914358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_68
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 366
+        width: 78
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d88e1d23810059b4e84a2dcffcab2ee2
+      internalID: 34470424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_69
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 376
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2db67f55ca525e442bfc16c12b8f941d
+      internalID: 374498174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_70
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 286
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c99b107ea76d144b8f6995c51851ade
+      internalID: 1491993836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_71
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 286
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b370ea403cd9fa408ef986ea395168d
+      internalID: 678973449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_72
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 286
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c917156720ec7e54388b4a09a5c3392d
+      internalID: 933658699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_73
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 286
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1aa3d49925123e46a94246030065b24
+      internalID: 2011317496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_74
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 286
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2a241998cfcc6a43880aed604a51b58
+      internalID: 908572205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_75
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 286
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 702d6a9ddda23e64cb488a08dce3b832
+      internalID: -324454265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_76
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 286
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 642d500d0b88b674d9f74220ebf5a76c
+      internalID: -1182615231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_77
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 286
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90ce984313de827489093d18277f5e79
+      internalID: -232871666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_78
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 286
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3b61a81ad856b84f8333b1610da5de1
+      internalID: 637650778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_79
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 286
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10def74aa855e084e9c83e43306e11e2
+      internalID: 741207554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_80
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 196
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d06794bd1be761248ba0fccbbbb059b0
+      internalID: -634453317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_81
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 196
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff741cd259d8bfa4d9179d4d638d1ff8
+      internalID: 530026785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_82
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 196
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2c71391b13715b48989a6ebb4811541
+      internalID: -1246761454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_83
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 196
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93f421952a8e88d4595ad0db0378e3c9
+      internalID: -855593850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_84
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 196
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fabb683176ecf2e49b5861e849a24233
+      internalID: 1328147261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_85
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 196
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 097f4d4361d0708459e67437a8a7770c
+      internalID: -473455531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_86
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 196
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac19c5949291b5745845a8b2325bfc28
+      internalID: 1934722369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_87
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 196
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e87a395e1989104e93ab3241578ae25
+      internalID: -2106111410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_88
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 195
+        width: 90
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e97f4c24bf0f05a469f4cdf36d98d3ee
+      internalID: 598525397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_89
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 196
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8afd74f4a4c9f7f46bd9b27d3dd65731
+      internalID: -622577489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_90
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 18
+        width: 90
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab4505faa1e12904e8feb887eef04291
+      internalID: -1383124768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_91
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 106
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c973cfaf40db9c4ca1cfc3b6eb3b976
+      internalID: 482594776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_92
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 106
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7167ca5d56b313a439d5992aedd1fca4
+      internalID: 1564517119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_93
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 106
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70352442a8a8e4f449e0503a56829ba3
+      internalID: 1077727120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_94
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 106
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b435efd7169ec2343954347989946635
+      internalID: -1356264423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_95
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 106
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47c8643f4c9dcc9468de20e9b5f31a51
+      internalID: 672353205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_96
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 106
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4bad724211f1dc45a5a566a7c65cd83
+      internalID: -1864192272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_97
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 106
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d9aca7a08dcc7f4bb4ee58e8288031e
+      internalID: 1328237382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_98
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 106
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2f8f96382c7f884aa8e37e0aadf8096
+      internalID: -1639278581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_99
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 106
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20aa16bb7be608f40afe1a497252a558
+      internalID: 1629628530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_100
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 16
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af06db7b5b870aa4aac7f0fa1f9219a1
+      internalID: -1828722228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_101
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 16
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bc5c2bbdaf4bba4ebe4e099f1c915ee
+      internalID: 698430901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_102
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 16
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdae692a519801644b3fe1c05c6aeb2c
+      internalID: 1566257335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_103
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 16
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb7552ea2fe699b479932cae68a3d307
+      internalID: 880744881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_104
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 16
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f819b2a0b0107a49b8ed072d8ec5704
+      internalID: 932638036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_105
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 16
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75d98211bf98c934190219199b90f04b
+      internalID: -514577548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_106
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 16
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6beaf8b5193d4a4b9fad6c3ed65ba4a
+      internalID: 1210983871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_107
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 16
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b9f4bd9d1e9ec349a9cb18ae377be71
+      internalID: 2088297512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_108
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 16
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfaa744a1246e914ca02998f11217aa3
+      internalID: -123838413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirtspritesheet_109
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 16
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d473dc6f93c3e594b98f1c76fe5f988e
+      internalID: -2104009632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      dirtspritesheet_0: -1394713416
+      dirtspritesheet_1: 719094285
+      dirtspritesheet_10: -1674605887
+      dirtspritesheet_100: -1828722228
+      dirtspritesheet_101: 698430901
+      dirtspritesheet_102: 1566257335
+      dirtspritesheet_103: 880744881
+      dirtspritesheet_104: 932638036
+      dirtspritesheet_105: -514577548
+      dirtspritesheet_106: 1210983871
+      dirtspritesheet_107: 2088297512
+      dirtspritesheet_108: -123838413
+      dirtspritesheet_109: -2104009632
+      dirtspritesheet_11: -1574335652
+      dirtspritesheet_12: -1354535690
+      dirtspritesheet_13: -62705744
+      dirtspritesheet_14: -1538731536
+      dirtspritesheet_15: -90132253
+      dirtspritesheet_16: 711002800
+      dirtspritesheet_17: -1240200660
+      dirtspritesheet_18: 330733469
+      dirtspritesheet_19: 875719745
+      dirtspritesheet_2: 2080076587
+      dirtspritesheet_20: -220325072
+      dirtspritesheet_21: 1963962883
+      dirtspritesheet_22: 1198009970
+      dirtspritesheet_23: -434209261
+      dirtspritesheet_24: 1255388866
+      dirtspritesheet_25: -190493403
+      dirtspritesheet_26: -367269596
+      dirtspritesheet_27: -257187616
+      dirtspritesheet_28: -292854683
+      dirtspritesheet_29: -1241787056
+      dirtspritesheet_3: -2007736294
+      dirtspritesheet_30: -912063927
+      dirtspritesheet_31: 951216980
+      dirtspritesheet_32: -1946403958
+      dirtspritesheet_33: 1987862641
+      dirtspritesheet_34: 824767716
+      dirtspritesheet_35: 1492056588
+      dirtspritesheet_36: 378188416
+      dirtspritesheet_37: 600912697
+      dirtspritesheet_38: -464823724
+      dirtspritesheet_39: -1731280388
+      dirtspritesheet_4: -1978934549
+      dirtspritesheet_40: 1730442002
+      dirtspritesheet_41: 919666199
+      dirtspritesheet_42: -760865186
+      dirtspritesheet_43: 327031048
+      dirtspritesheet_44: 1970624947
+      dirtspritesheet_45: 1373091798
+      dirtspritesheet_46: -1166608242
+      dirtspritesheet_47: -40009432
+      dirtspritesheet_48: -760205276
+      dirtspritesheet_49: -1524093886
+      dirtspritesheet_5: 714594434
+      dirtspritesheet_50: 1131408338
+      dirtspritesheet_51: -732197260
+      dirtspritesheet_52: -1768463085
+      dirtspritesheet_53: 1855073000
+      dirtspritesheet_54: -449084804
+      dirtspritesheet_55: -893374844
+      dirtspritesheet_56: 1199765469
+      dirtspritesheet_57: 1904277722
+      dirtspritesheet_58: 354365995
+      dirtspritesheet_59: -2025070211
+      dirtspritesheet_6: -643231958
+      dirtspritesheet_60: 1627866867
+      dirtspritesheet_61: 349692263
+      dirtspritesheet_62: -1899521172
+      dirtspritesheet_63: -1622484208
+      dirtspritesheet_64: 1899335366
+      dirtspritesheet_65: -528990229
+      dirtspritesheet_66: 733126330
+      dirtspritesheet_67: -1592914358
+      dirtspritesheet_68: 34470424
+      dirtspritesheet_69: 374498174
+      dirtspritesheet_7: -701167035
+      dirtspritesheet_70: 1491993836
+      dirtspritesheet_71: 678973449
+      dirtspritesheet_72: 933658699
+      dirtspritesheet_73: 2011317496
+      dirtspritesheet_74: 908572205
+      dirtspritesheet_75: -324454265
+      dirtspritesheet_76: -1182615231
+      dirtspritesheet_77: -232871666
+      dirtspritesheet_78: 637650778
+      dirtspritesheet_79: 741207554
+      dirtspritesheet_8: 1346167660
+      dirtspritesheet_80: -634453317
+      dirtspritesheet_81: 530026785
+      dirtspritesheet_82: -1246761454
+      dirtspritesheet_83: -855593850
+      dirtspritesheet_84: 1328147261
+      dirtspritesheet_85: -473455531
+      dirtspritesheet_86: 1934722369
+      dirtspritesheet_87: -2106111410
+      dirtspritesheet_88: 598525397
+      dirtspritesheet_89: -622577489
+      dirtspritesheet_9: -1977850983
+      dirtspritesheet_90: -1383124768
+      dirtspritesheet_91: 482594776
+      dirtspritesheet_92: 1564517119
+      dirtspritesheet_93: 1077727120
+      dirtspritesheet_94: -1356264423
+      dirtspritesheet_95: 672353205
+      dirtspritesheet_96: -1864192272
+      dirtspritesheet_97: 1328237382
+      dirtspritesheet_98: -1639278581
+      dirtspritesheet_99: 1629628530
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
