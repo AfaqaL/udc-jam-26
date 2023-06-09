@@ -23,9 +23,13 @@ public class MapManager : Subject<bool>
     private int _currentRoom = 0;
     private float _timer;
     // eseni gazarde tu ginda ro mal-male ar sheicvalos adgili
-    private float _maxTime = 4f;
+    private float _maxTime = 100f;
     // esec!
-    private float _minTime = 3f;
+    private float _minTime = 99f;
+
+    // variables for development purposes
+    private bool _inDevelopment = true;
+    private Room _prevRoom;
 
     private void Awake()
     {
@@ -67,11 +71,24 @@ public class MapManager : Subject<bool>
 
         if (_timer <= 0f)
         {
+            if (_inDevelopment)
+            {
+                if (_prevRoom == null)
+                {
+                    _currentRoom = Random.Range(0, Rooms.Count);
+                    _prevRoom = Rooms[_currentRoom];
+                }
+
+                _activeRoom.StopProcesses();
+                _prevRoom.PrepareProcesses();
+                (_activeRoom, _prevRoom) = (_prevRoom, _activeRoom);
+                return;
+            }
             UpdatingRoom = true;
 
+            _currentRoom = Random.Range(0, Rooms.Count);
             StartCoroutine(UpdateRoom());
             NotifyObservers(false);
-            _currentRoom = Random.Range(0, Rooms.Count);
             // dim screen
             
             // stop updating and receiving user input 
