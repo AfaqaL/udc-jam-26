@@ -3,8 +3,7 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     public static Player Instance;
-
-    public GameObject DefaultMagicPrefab;
+    public GameObject ShootingElement;
 
     private void Awake()
     {
@@ -18,13 +17,8 @@ public class Player : MonoBehaviour
         }
     }
 
-    public void SetDefaultMagicPrefab(GameObject obj)
+    public GameObject GetShootingElement()
     {
-        DefaultMagicPrefab = obj;
-    }
-
-    public GameObject GetDefaultMagicPrefab()
-    {
-        return DefaultMagicPrefab;
+        return ShootingElement;
     }
 }

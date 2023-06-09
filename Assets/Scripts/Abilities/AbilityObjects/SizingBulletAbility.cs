@@ -7,8 +7,8 @@ public class SizingBulletAbility : AbilityBase
 
     public override void AddPassiveEffect()
     {
-        var defaultMage = Player.Instance.GetDefaultMagicPrefab();
-        Debug.Log(defaultMage);
+        var defaultMage = Player.Instance.GetShootingElement();
+
         if (defaultMage != null)
         {
             var component = defaultMage.AddComponent<SizingBullet>();
@@ -19,9 +19,8 @@ public class SizingBulletAbility : AbilityBase
 
     public override void RemovePassiveEffect()
     {
-        var defaultMage = Player.Instance.GetDefaultMagicPrefab();
+        var defaultMage = Player.Instance.GetShootingElement();
 
-        Debug.Log(defaultMage);
         if (defaultMage != null)
         {
             var component = defaultMage.GetComponent<SizingBullet>();

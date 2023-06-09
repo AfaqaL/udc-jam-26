@@ -11,6 +11,7 @@ public class DashAbility : AbilityBase
 
     public override void Start()
     {
+        IsActive = true;
         _pm = Player.Instance.GetComponent<PlayerMovement>();
         _tr = GetComponent<TrailRenderer>();
         base.Start();

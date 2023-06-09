@@ -1,4 +1,3 @@
-using System.Linq;
 using UnityEngine;
 
 public class AbilityHolder : MonoBehaviour, IObserver
@@ -21,7 +20,7 @@ public class AbilityHolder : MonoBehaviour, IObserver
 
     void ActivateRandomAbilities()
     {
-        var randomMagicCount = Random.Range(1, Abilities.Length + 1);
+        var randomMagicCount = Random.Range(0, Abilities.Length + 1);
 
         for (int i = 0; i < randomMagicCount; i++)
         {

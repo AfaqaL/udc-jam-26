@@ -1,5 +1,4 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class AbilityBase : MonoBehaviour
 {
@@ -30,24 +29,13 @@ public class AbilityBase : MonoBehaviour
         _timer += Time.deltaTime;
     }
 
-    public virtual void Cast()
-    {
-    }
-
-    public virtual void AddPassiveEffect()
-    {
-    }
-
-    public virtual void RemovePassiveEffect()
-    {
-    }
-
     public void SetActive(bool active)
     {
         IsActive = active;
         gameObject.SetActive(active);
 
         SetupAbility();
+
         if (IsPassive)
         {
             if (active)
@@ -59,6 +47,18 @@ public class AbilityBase : MonoBehaviour
                 RemovePassiveEffect();
             }
         }
+    }
+
+    public virtual void Cast()
+    {
+    }
+
+    public virtual void AddPassiveEffect()
+    {
+    }
+
+    public virtual void RemovePassiveEffect()
+    {
     }
 
     public virtual void SetupAbility()

@@ -3875,7 +3875,7 @@ GameObject:
   - component: {fileID: 1012466914}
   - component: {fileID: 1012466913}
   m_Layer: 0
-  m_Name: FireBall
+  m_Name: ShootingElement
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9377,8 +9377,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Abilities:
-  - {fileID: 1617157818}
-  - {fileID: 1285804970}
   - {fileID: 1594927948}
   Subject: {fileID: 1661288664}
 --- !u!114 &1248784818
@@ -9393,7 +9391,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29e3fd99232cf514086463fc1ebb98b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DefaultMagicPrefab: {fileID: 1012466912}
+  ShootingElement: {fileID: 1012466912}
 --- !u!1 &1285804967
 GameObject:
   m_ObjectHideFlags: 0
@@ -9411,7 +9409,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1285804968
 Transform:
   m_ObjectHideFlags: 0
@@ -9553,7 +9551,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   IsPassive: 0
-  IsActive: 0
+  IsActive: 1
   Key: Dash
   Cooldown: 5
   MagicType: 1
@@ -12658,12 +12656,12 @@ GameObject:
   - component: {fileID: 1617157819}
   - component: {fileID: 1617157818}
   m_Layer: 0
-  m_Name: FireballAbility
+  m_Name: ShootingAbility
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1617157818
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12677,7 +12675,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   IsPassive: 0
-  IsActive: 0
+  IsActive: 1
   Key: Fire1
   Cooldown: 0
   MagicType: 0

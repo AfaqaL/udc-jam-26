@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class BallShooting : MonoBehaviour
+public class Shooting : MonoBehaviour
 {
     public float Speed;
 

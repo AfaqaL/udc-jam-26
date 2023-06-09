@@ -1,16 +1,17 @@
 ﻿using UnityEngine;
 
-public class FireballAbility : AbilityBase
+public class ShootingAbility : AbilityBase
 {
-    public BallShooting FireBall;
+    public Shooting FireBall;
     public Transform Spawn;
     public float FireRate;
 
     float nextFire;
 
-    public override void SetupAbility()
+    public override void Start()
     {
-        Player.Instance.SetDefaultMagicPrefab(FireBall.gameObject);
+        IsActive = true;
+        base.Start();
     }
 
     public override void Update()
