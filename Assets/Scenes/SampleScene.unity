@@ -3791,6 +3791,7 @@ GameObject:
   m_Component:
   - component: {fileID: 766504035}
   - component: {fileID: 766504036}
+  - component: {fileID: 766504037}
   m_Layer: 0
   m_Name: Room1
   m_TagString: Untagged
@@ -3829,6 +3830,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _spawnLocation: {fileID: 1553859347}
+--- !u!114 &766504037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 766504034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7946718b712f4c95bca2a80a51727555, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isBossRoom: 1
+  _enemy: {fileID: 0}
 --- !u!1 &1087274542
 GameObject:
   m_ObjectHideFlags: 0

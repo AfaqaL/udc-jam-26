@@ -13,6 +13,8 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         MapManager.ShouldReceiveInputEvent += should => _receivingInput = should;
+        
+        
     }
 
     // Update is called once per frame
@@ -41,6 +43,5 @@ public class PlayerMovement : MonoBehaviour
         float verticalInput = Input.GetAxis("Vertical");
         transform.position += new Vector3(horizontalInput, verticalInput, 0f).normalized
                               * (moveSpeed * Time.deltaTime);
-        ;
     }
 }
