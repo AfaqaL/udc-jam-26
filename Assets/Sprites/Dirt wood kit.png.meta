@@ -1,0 +1,1473 @@
+fileFormatVersion: 2
+guid: e6660d07a21b2174ab8caff6f18cee31
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dirt wood kit_0
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 902
+        width: 82
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54f0b94c2369d6a47819a157cb2e6f9f
+      internalID: 1336016876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirt wood kit_1
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 907
+        width: 58
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bedbdae9a612e04091b1df8403db2bd
+      internalID: -484326559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirt wood kit_2
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 905
+        width: 114
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0857d9081cde3b34fbae2d3435b04234
+      internalID: 80385945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirt wood kit_3
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 787
+        width: 69
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa347c31bbba01f4b83356367f882830
+      internalID: 1000496800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirt wood kit_4
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 788
+        width: 74
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a4773f22d485d4449b8e9a7691800c7
+      internalID: 778712634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirt wood kit_5
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 788
+        width: 73
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88426e6f3975e7b4e82d2bb0a687cc1b
+      internalID: 1446910103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirt wood kit_6
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 788
+        width: 74
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75f704bec78eeff41b126050ae89d548
+      internalID: 1124992056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirt wood kit_7
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 671
+        width: 75
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d70acb8720f6a0049a870928f01eff3e
+      internalID: 409137585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirt wood kit_8
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 675
+        width: 72
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06b1a88d62b2d9f4fb55ef37657b8bac
+      internalID: -207990997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirt wood kit_9
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 665
+        width: 75
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9caa6f1f8c16285458819c2907ff4e4c
+      internalID: -1484397348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirt wood kit_10
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 667
+        width: 65
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6f63255d548d03409983eda74db1e20
+      internalID: -647694242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirt wood kit_11
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 667
+        width: 154
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93c05d95d1650ca45a3fadbd28e7c474
+      internalID: -2130149733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirt wood kit_12
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 655
+        width: 114
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 225a00932e2c6ba4f94e5dea186e1147
+      internalID: -1023739974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirt wood kit_13
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 664
+        width: 218
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6297ef307178c9d48952fb6da95e0b80
+      internalID: -983360125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirt wood kit_14
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 548
+        width: 79
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc0e21fd26b3e5243ba9196e7ee2cd43
+      internalID: -848655199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirt wood kit_15
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 547
+        width: 65
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1add1c41d44e8aa4b82cdf2548f9929d
+      internalID: -591743765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirt wood kit_16
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 624
+        width: 138
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 766832d6c8d1fc34b8d6ee9ca3ce17c9
+      internalID: -1086611974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirt wood kit_17
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 548
+        width: 91
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c680fc686c128a14aacbd40bab9953e2
+      internalID: 435554626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirt wood kit_18
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 546
+        width: 101
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2959bdb986d3a7b4ab2f69f9fe5c6d9d
+      internalID: -24689969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirt wood kit_19
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 541
+        width: 49
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7b8aa33352e90447a3fe516efd8abc1
+      internalID: -271826500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirt wood kit_20
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 528
+        width: 69
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa6632e33d2b1af4dbe2ba7ffe1c8c31
+      internalID: 1158568815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirt wood kit_21
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 543
+        width: 58
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffb39fb09544d6c439e6fbc59720fb6e
+      internalID: 1273828612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirt wood kit_22
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 563
+        width: 19
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daf517674ef5f944fa317febccd5c2bb
+      internalID: -333632926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirt wood kit_23
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 543
+        width: 23
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef2296f1f73a7414f845151f6dd706d2
+      internalID: -727940204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirt wood kit_24
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 546
+        width: 47
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 861514e0b17107a4e8e4075712f62954
+      internalID: -1358817212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirt wood kit_25
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 563
+        width: 18
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 129531ffbf9f906439015926b0763334
+      internalID: 391329890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirt wood kit_26
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 549
+        width: 47
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 760387985a716b842b3a5c9e21c09ce0
+      internalID: 469884342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirt wood kit_27
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 549
+        width: 46
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c5bae2ba223ad749b561bc1af4bd738
+      internalID: -267005170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirt wood kit_28
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 404
+        width: 62
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9152676c3ee78ec41ba87fd5de042b02
+      internalID: -2060016450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirt wood kit_29
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 404
+        width: 62
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed7160f4958382a488c53c16e12afe2c
+      internalID: 280061249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirt wood kit_30
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 407
+        width: 74
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e92887d042364f4082644d92eab4e12
+      internalID: 1854760381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirt wood kit_31
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 415
+        width: 42
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4b0fbc3dc0c2fd4e9261b7864a61be2
+      internalID: -654749953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirt wood kit_32
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 415
+        width: 42
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f2214eadf472de489b4d5768c7566fa
+      internalID: 1121188392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirt wood kit_33
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 415
+        width: 42
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16e1c408eb56e3643bd136032145ea5b
+      internalID: 302177702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirt wood kit_34
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 478
+        width: 78
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 179e7f7181dcc2347aea62e2622529a1
+      internalID: -1692131032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirt wood kit_35
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 403
+        width: 77
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3e4b41582e7fb24080978b375fcd8a9
+      internalID: 1555301816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirt wood kit_36
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 403
+        width: 120
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bda364e7b3fa8f243a3414cf9d017292
+      internalID: 693393106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirt wood kit_37
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 231
+        width: 85
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36358899ae36fe046a63bfa09333e5af
+      internalID: 980598362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirt wood kit_38
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 231
+        width: 108
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a759edd4357105f41aaae2c9d22ba46f
+      internalID: -1056109711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirt wood kit_39
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 231
+        width: 115
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d89c59d43d0ea84eae4289c1085cf87
+      internalID: -115318709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirt wood kit_40
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 231
+        width: 96
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 134a4835b3ebab1478bb61a28a4dc5a9
+      internalID: 1208657885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirt wood kit_41
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 230
+        width: 124
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0f2f17faa9ace344a2803e480c79598
+      internalID: 1384005167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirt wood kit_42
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 239
+        width: 72
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29f8aaf05ec63374dae51cfe57a18613
+      internalID: 2124094691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirt wood kit_43
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 231
+        width: 137
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47c20e632ff08ce4dacd091e46bc68b1
+      internalID: 590024947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirt wood kit_44
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 131
+        width: 60
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cda0f5d7ab3d794dbfa8586324a2d42
+      internalID: 1535945876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirt wood kit_45
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 138
+        width: 163
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7de31d52a426ddc4d8213969f6389734
+      internalID: 267194703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirt wood kit_46
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 118
+        width: 70
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f398dd24d9b55864ea581ea2e592f031
+      internalID: -1804412730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirt wood kit_47
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 27
+        width: 174
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b91e4bdbdf338540beb6f5dccd21921
+      internalID: -2073999258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirt wood kit_48
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 138
+        width: 56
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de5c86842359d134282ef11b0dcfbdcb
+      internalID: -23683831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirt wood kit_49
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 25
+        width: 99
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e627816d3594e3747a3203661fa4baaa
+      internalID: 716227871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirt wood kit_50
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 94
+        width: 86
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f68a07a2bb461874bae334b4b257699d
+      internalID: 1009707868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirt wood kit_51
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 179
+        width: 75
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f0121a8d9e52f6439babb879321c7f4
+      internalID: -1998234578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirt wood kit_52
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 27
+        width: 118
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12dbed7cf0cbb7c47b6cb49a926dce75
+      internalID: -523069440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirt wood kit_53
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 140
+        width: 85
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9804ad42fca82fb4e8d06c0e1da5982a
+      internalID: -951488739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirt wood kit_54
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 22
+        width: 99
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74ceec4ae8db1f64eabe75e8278146a0
+      internalID: -546564799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirt wood kit_55
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 27
+        width: 43
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6932151081edb9b459ff021bed293837
+      internalID: 95712961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirt wood kit_56
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 22
+        width: 59
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52e40d3122ddc0a4fabeeb85e15aa927
+      internalID: 1338025142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirt wood kit_57
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 25
+        width: 68
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1acc0fbc543df2741b647aa397428651
+      internalID: 1755789020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirt wood kit_58
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 25
+        width: 56
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb9adabb65cfd6c41b8c6acbca778bc1
+      internalID: -1013632388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirt wood kit_59
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 26
+        width: 116
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2f4285c275e8b649a6875ad75069b32
+      internalID: -1267612749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Dirt wood kit_0: 1336016876
+      Dirt wood kit_1: -484326559
+      Dirt wood kit_10: -647694242
+      Dirt wood kit_11: -2130149733
+      Dirt wood kit_12: -1023739974
+      Dirt wood kit_13: -983360125
+      Dirt wood kit_14: -848655199
+      Dirt wood kit_15: -591743765
+      Dirt wood kit_16: -1086611974
+      Dirt wood kit_17: 435554626
+      Dirt wood kit_18: -24689969
+      Dirt wood kit_19: -271826500
+      Dirt wood kit_2: 80385945
+      Dirt wood kit_20: 1158568815
+      Dirt wood kit_21: 1273828612
+      Dirt wood kit_22: -333632926
+      Dirt wood kit_23: -727940204
+      Dirt wood kit_24: -1358817212
+      Dirt wood kit_25: 391329890
+      Dirt wood kit_26: 469884342
+      Dirt wood kit_27: -267005170
+      Dirt wood kit_28: -2060016450
+      Dirt wood kit_29: 280061249
+      Dirt wood kit_3: 1000496800
+      Dirt wood kit_30: 1854760381
+      Dirt wood kit_31: -654749953
+      Dirt wood kit_32: 1121188392
+      Dirt wood kit_33: 302177702
+      Dirt wood kit_34: -1692131032
+      Dirt wood kit_35: 1555301816
+      Dirt wood kit_36: 693393106
+      Dirt wood kit_37: 980598362
+      Dirt wood kit_38: -1056109711
+      Dirt wood kit_39: -115318709
+      Dirt wood kit_4: 778712634
+      Dirt wood kit_40: 1208657885
+      Dirt wood kit_41: 1384005167
+      Dirt wood kit_42: 2124094691
+      Dirt wood kit_43: 590024947
+      Dirt wood kit_44: 1535945876
+      Dirt wood kit_45: 267194703
+      Dirt wood kit_46: -1804412730
+      Dirt wood kit_47: -2073999258
+      Dirt wood kit_48: -23683831
+      Dirt wood kit_49: 716227871
+      Dirt wood kit_5: 1446910103
+      Dirt wood kit_50: 1009707868
+      Dirt wood kit_51: -1998234578
+      Dirt wood kit_52: -523069440
+      Dirt wood kit_53: -951488739
+      Dirt wood kit_54: -546564799
+      Dirt wood kit_55: 95712961
+      Dirt wood kit_56: 1338025142
+      Dirt wood kit_57: 1755789020
+      Dirt wood kit_58: -1013632388
+      Dirt wood kit_59: -1267612749
+      Dirt wood kit_6: 1124992056
+      Dirt wood kit_7: 409137585
+      Dirt wood kit_8: -207990997
+      Dirt wood kit_9: -1484397348
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
