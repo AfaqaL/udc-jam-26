@@ -6,6 +6,7 @@ public class PlayerMovement : MonoBehaviour, IObserver
     [SerializeField] private Camera mainCamera;
     public float moveSpeed = 10f;
     public Subject<bool> Subject;
+    public GameObject SpawnPoint; // ეს ამკლასში არუნდა იყოს მარა at this point :D
 
     private bool _receivingInput = true;
 
@@ -42,7 +43,7 @@ public class PlayerMovement : MonoBehaviour, IObserver
         var direction = mousePos - transform.position;
 
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-        transform.rotation = Quaternion.Euler(0f, 0f, angle - 90f);
+        SpawnPoint.transform.rotation = Quaternion.Euler(0f, 0f, angle - 90f);
     }
 
     private void Move()
