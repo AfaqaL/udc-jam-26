@@ -6,6 +6,4 @@ public class Room : MonoBehaviour
 
      [SerializeField]
      public Transform _spawnLocation;
-
-     
 }
