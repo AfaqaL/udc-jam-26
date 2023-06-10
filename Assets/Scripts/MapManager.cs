@@ -23,9 +23,9 @@ public class MapManager : Subject<bool>
     private int _currentRoom = 0;
     private float _timer;
     // eseni gazarde tu ginda ro mal-male ar sheicvalos adgili
-    private float _maxTime = 4f;
+    private float _maxTime = 100f;
     // esec!
-    private float _minTime = 3f;
+    private float _minTime = 100f;
 
     private void Awake()
     {
