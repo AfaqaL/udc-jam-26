@@ -8,13 +8,13 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Creatures
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - PlayerProjectile
+  - EnemyProjectile
+  - RoomWall
   - 
   - 
   - 
@@ -40,4 +40,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Trail
+    uniqueID: 58038145
+    locked: 0
+  - name: Ground
+    uniqueID: 911279329
     locked: 0
