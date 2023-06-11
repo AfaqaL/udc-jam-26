@@ -8,6 +8,8 @@ public class ShootingAbility : AbilityBase
 
     float nextFire;
 
+    private float damage = 10f;
+
     public override void Start()
     {
         IsActive = true;
@@ -31,7 +33,7 @@ public class ShootingAbility : AbilityBase
             //Destroy-მ performance თუ დააგდო შევცვალოთ inactive
             var obj = Instantiate(FireBall, Spawn.position, Spawn.rotation);
             obj.gameObject.SetActive(true);
-
+            obj.damage = damage;
             Destroy(obj.gameObject, 3f);
         }
     }

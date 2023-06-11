@@ -6,7 +6,9 @@ public class PlayerMovement : MonoBehaviour, IObserver
     [SerializeField] private Camera mainCamera;
     public float moveSpeed = 10f;
     public Subject<bool> Subject;
+    public GameObject SpawnPoint; // ეს ამკლასში არუნდა იყოს მარა at this point :D
 
+    public Rigidbody2D rb;
     private bool _receivingInput = true;
 
 
@@ -19,7 +21,11 @@ public class PlayerMovement : MonoBehaviour, IObserver
     // Update is called once per frame
     void Update()
     {
-        if (!_receivingInput) return;
+        if (!_receivingInput)
+        {
+            rb.velocity = Vector2.zero;
+            return;
+        }
         
         Move();
         LookAtMouse();
@@ -42,7 +48,7 @@ public class PlayerMovement : MonoBehaviour, IObserver
         var direction = mousePos - transform.position;
 
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-        transform.rotation = Quaternion.Euler(0f, 0f, angle - 90f);
+        SpawnPoint.transform.rotation = Quaternion.Euler(0f, 0f, angle - 90f);
     }
 
     private void Move()
@@ -50,8 +56,10 @@ public class PlayerMovement : MonoBehaviour, IObserver
         float horizontalInput = Input.GetAxisRaw("Horizontal");
         float verticalInput = Input.GetAxisRaw("Vertical");
 
-        transform.position += new Vector3(horizontalInput, verticalInput, 0f).normalized 
-                              * (moveSpeed * Time.deltaTime);
+        // transform.position += new Vector3(horizontalInput, verticalInput, 0f).normalized 
+        //                       * (moveSpeed * Time.deltaTime);
+
+        rb.velocity = new Vector2(horizontalInput, verticalInput).normalized * moveSpeed;
     }
 
     public void Notify<T>(T data)

@@ -17,12 +17,16 @@ public class Room : MonoBehaviour
 
      public void StopProcesses()
      {
+          if (_manager == null) return;
           _manager.StopEnemies();
           _firstTime = false;
+          _manager.enabled = false;
      }
 
      public void PrepareProcesses()
      {
-          
+          if (_manager == null) return;
+          _manager.enabled = true;
+          _manager.Continue();
      }
 }

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5037447170552334191}
   - component: {fileID: 2114056209300033914}
   - component: {fileID: 8051375841412477900}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DeathParticles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4897,7 +4897,10 @@ GameObject:
   - component: {fileID: 2779823582728493941}
   - component: {fileID: 5906581398182717970}
   - component: {fileID: 1677888226751172462}
-  m_Layer: 0
+  - component: {fileID: -6610542938290400692}
+  - component: {fileID: 8074265554932746630}
+  - component: {fileID: -6843734813337741927}
+  m_Layer: 3
   m_Name: Dirt_monster_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4918,8 +4921,9 @@ Transform:
   m_Children:
   - {fileID: 7242324402901917364}
   - {fileID: 5037447170552334191}
+  - {fileID: 6090690770117035503}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!58 &5906581398182717970
 CircleCollider2D:
@@ -4977,6 +4981,81 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!195 &-6610542938290400692
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5944023986968689530}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
+--- !u!50 &8074265554932746630
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5944023986968689530}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 100
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!114 &-6843734813337741927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5944023986968689530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b987a45c8c506a4da96dc9ac8d2a2e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  updates: 1
+  health: 0
+  MaxHealth: 30
+  hpBar: {fileID: 1749515498388637121}
+  playerRef: {fileID: 0}
+  projectileHolder: {fileID: 0}
+  abilityPrefab: {fileID: 3466101547644965824, guid: 924ce78fdfb8b6d479e3979257e2cd5d, type: 3}
+  behaviorChangeInterval: 3
+  behaviorChangeRange: 0.1
+  currBehaviorChangeTime: 0
+  timeSingeLastBehaviorChange: 0
+  currBehavior: 0
+  fireRate: 0.7
+  timeSinceLastFire: 10
 --- !u!1 &7980317403946610409
 GameObject:
   m_ObjectHideFlags: 0
@@ -4987,7 +5066,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7242324402901917364}
   - component: {fileID: 4246997397903917837}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: monster_sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5061,6 +5140,83 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &3851806779436478366
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2779823582728493941}
+    m_Modifications:
+    - target: {fileID: 793271597758051533, guid: eab9de2a290b1ca48a2045a8fe605bb8, type: 3}
+      propertyPath: m_Name
+      value: HpBar
+      objectReference: {fileID: 0}
+    - target: {fileID: 7057746618297297521, guid: eab9de2a290b1ca48a2045a8fe605bb8, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7057746618297297521, guid: eab9de2a290b1ca48a2045a8fe605bb8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.428
+      objectReference: {fileID: 0}
+    - target: {fileID: 7057746618297297521, guid: eab9de2a290b1ca48a2045a8fe605bb8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.597
+      objectReference: {fileID: 0}
+    - target: {fileID: 7057746618297297521, guid: eab9de2a290b1ca48a2045a8fe605bb8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7057746618297297521, guid: eab9de2a290b1ca48a2045a8fe605bb8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7057746618297297521, guid: eab9de2a290b1ca48a2045a8fe605bb8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7057746618297297521, guid: eab9de2a290b1ca48a2045a8fe605bb8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7057746618297297521, guid: eab9de2a290b1ca48a2045a8fe605bb8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7057746618297297521, guid: eab9de2a290b1ca48a2045a8fe605bb8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7057746618297297521, guid: eab9de2a290b1ca48a2045a8fe605bb8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7057746618297297521, guid: eab9de2a290b1ca48a2045a8fe605bb8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: eab9de2a290b1ca48a2045a8fe605bb8, type: 3}
+--- !u!114 &1749515498388637121 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3257187509083204191, guid: eab9de2a290b1ca48a2045a8fe605bb8, type: 3}
+  m_PrefabInstance: {fileID: 3851806779436478366}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474ce45cd8b57894bb296e509a4e9461, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &6090690770117035503 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7057746618297297521, guid: eab9de2a290b1ca48a2045a8fe605bb8, type: 3}
+  m_PrefabInstance: {fileID: 3851806779436478366}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6190977803512313776
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5072,6 +5228,10 @@ PrefabInstance:
     - target: {fileID: 4352356867826780702, guid: ed53564e1d382c8469b7b2fd49cd7c03, type: 3}
       propertyPath: m_Name
       value: monsters_6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4352356867826780702, guid: ed53564e1d382c8469b7b2fd49cd7c03, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8789700877715294021, guid: ed53564e1d382c8469b7b2fd49cd7c03, type: 3}
       propertyPath: m_RootOrder

@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 using Random = UnityEngine.Random;
 
 namespace Enemies
@@ -9,30 +10,55 @@ namespace Enemies
     public class Enemy : MonoBehaviour
     {
         public bool updates = true;
-        
+
         private Vector2 targetLoc;
         private int laps = 0;
 
-        private List<Transform> targets = new();
-        private float _movementSpeed = 5f;
+        public float health = 0f;
+        public float MaxHealth = 30;
+
+        protected List<Transform> targets = new();
+        protected float _movementSpeed = 3.2f;
+
+        protected NavMeshAgent _agent;
+
+        public HpBar hpBar;
+
+        public Transform playerRef;
+        public Transform projectileHolder;
+
         private void Start()
         {
-            
+            _agent = GetComponent<NavMeshAgent>();
+            _agent.updateRotation = false;
+            _agent.updateUpAxis = false;
+            _agent.speed = Random.Range(2.4f, 3.2f);
+            health = MaxHealth;
+
         }
 
         private void Update()
         {
-            if (!updates) return;
-            // Debug.Log("in update");
-            if (targetLoc == (Vector2)transform.position)
+            if (!updates)
+            {
+                _agent.SetDestination(transform.position);
+                return;
+            }
+
+            MoveToNextPoint();
+        }
+
+        protected void MoveToNextPoint()
+        {
+            if (Vector2.Distance(targetLoc, transform.position) < 1f)
             {
                 targetLoc = MathUtil.GetRandomElement(targets).position;
-                GetComponent<SpriteRenderer>().color = MathUtil.GetRandomColor();
-                _movementSpeed = Random.Range(2f, 8f);
             }
             else
             {
-                transform.position = Vector2.MoveTowards(transform.position, targetLoc, _movementSpeed * Time.deltaTime);
+                _agent.SetDestination(new Vector3(
+                    targetLoc.x, targetLoc.y, transform.position.z
+                ));
             }
         }
 
@@ -40,6 +66,17 @@ namespace Enemies
         {
             targets.AddRange(spawnPoints);
             targetLoc = MathUtil.GetRandomElement(targets).position;
+        }
+
+        public virtual void ReceiveDamage(float damage)
+        {
+            health -= damage;
+            hpBar.SetHealth(health, MaxHealth);
+            if (health <= 0f)
+            {
+                _agent.isStopped = true;
+                Destroy(gameObject);
+            }
         }
     }
 }

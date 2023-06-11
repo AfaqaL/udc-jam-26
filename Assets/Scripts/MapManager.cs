@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 using UnityEngine.UI;
 using Random = UnityEngine.Random;
 
@@ -23,12 +24,12 @@ public class MapManager : Subject<bool>
     private int _currentRoom = 0;
     private float _timer;
     // eseni gazarde tu ginda ro mal-male ar sheicvalos adgili
-    private float _maxTime = 100f;
+    public float maxTime = 12f;
     // esec!
-    private float _minTime = 99f;
+    public float minTime = 8f;
 
     // variables for development purposes
-    private bool _inDevelopment = true;
+    private bool _inDevelopment = false;
     private Room _prevRoom;
 
     private void Awake()
@@ -51,7 +52,7 @@ public class MapManager : Subject<bool>
 
     private void StartNewTimer()
     {
-        _timer = Random.Range(_minTime, _maxTime);
+        _timer = Random.Range(minTime, maxTime);
     }
 
     // Update is called once per frame
@@ -102,6 +103,7 @@ public class MapManager : Subject<bool>
 
     private IEnumerator UpdateRoom()
     {
+        _activeRoom.StopProcesses();
         yield return StartCoroutine(DimScreen());
         
         // go to next map
@@ -111,6 +113,8 @@ public class MapManager : Subject<bool>
         var cameraTransform = _mainCamera.transform;
         cameraTransform.position = new Vector3(pos.x, pos.y, cameraTransform.position.z);
         
+        // NEED TO DELETE
+        _activeRoom = nextRoom;
         yield return StartCoroutine(UndimScreen());
     }
 
@@ -147,8 +151,9 @@ public class MapManager : Subject<bool>
         }
 
         NotifyObservers(true);
-        _timer = Random.Range(_minTime, _maxTime);
+        _timer = Random.Range(minTime, maxTime);
         UpdatingRoom = false;
         blackOverlay.color = targetColor;
+        _activeRoom.PrepareProcesses();
     }
 }
